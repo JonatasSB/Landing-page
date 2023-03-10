@@ -59,10 +59,9 @@ section {
     margin:0;
     padding-top: 15px;
     font-weight: lighter;
-    max-width: auto;
     text-align: center;
     line-height: 29px;
-    letter-spacing: 0.001em;
+    letter-spacing: 0.3px;
     font-size: 19px;
 }
 #desc a {
@@ -238,4 +237,6 @@ address a {
 address a:hover {
     text-decoration: underline;
 }
-/*Responsivo pendente*/
+@media (max-width: 500px) {
+   
+}
